@@ -4,5 +4,10 @@
     "@trpc/server": "^10.37.1",
     "ts-node": "^10.9.1",
     "zod": "^3.22.2"
+  },
+  "scripts": {
+    "startserver": "ts-node ./server/index.ts",
+    "startclient": "ts-node ./client/index.ts"
   }
+  
 }
